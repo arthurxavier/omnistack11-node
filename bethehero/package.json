@@ -1,0 +1,20 @@
+{
+  "name": "bethehero-backend",
+  "version": "1.0.0",
+  "description": "Backend - 'Be The Hero' Project. The project is an ONGs management application where the user can register and execute cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurxavier/omnistack11-node.git"
+  },
+  "keywords": [],
+  "author": "Arthur Xavier Giffoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurxavier/omnistack11-node/issues"
+  },
+  "homepage": "https://github.com/arthurxavier/omnistack11-node#readme"
+}
