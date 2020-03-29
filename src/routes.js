@@ -1,17 +1,30 @@
 const express = require("express");
 const crypto = require("crypto");
+const connection = require("./database/connection");
 
 // Decoupling the route module express to a variable.
 const routes = express.Router();
 
-routes.post("/ongs", (request, response) => {
-  const { name, email, whatsapp, cirty, uf } = request.body;
+routes.get("/ongs", async (request, response) => {
+  const ongs = await connection("ongs").select("*");
+  return response.json({ ongs });
+});
+
+routes.post("/ongs", async (request, response) => {
+  const { name, email, whatsapp, city, uf } = request.body;
 
   const id = crypto.randomBytes(4).toString("HEX");
 
-  console.log(id);
+  await connection("ongs").insert({
+    id,
+    name,
+    email,
+    whatsapp,
+    city,
+    uf
+  });
 
-  return response.json();
+  return response.json({ id });
 });
 
 module.exports = routes;
