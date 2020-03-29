@@ -4,7 +4,7 @@
   "description": "Backend - 'Be The Hero' Project. The project is an ONGs management application where the user can register and execute cases.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
