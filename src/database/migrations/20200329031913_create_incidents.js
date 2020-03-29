@@ -12,6 +12,7 @@ exports.up = function(knex) {
       .foreign("ong_id")
       .references("id")
       .inTable("ongs");
+    table.timestamps();
   });
 };
 
