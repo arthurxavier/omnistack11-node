@@ -9,6 +9,12 @@ The project is an ONGs management application where the user can register and ex
 npm install
 ```
 
+# Install Dependeces
+
+```
+npx knex migrate:latest
+```
+
 # Start project
 
 ```
