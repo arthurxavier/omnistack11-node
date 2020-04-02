@@ -1,5 +1,3 @@
-# omnistack11-node
-
 <h4 align="center">
  <img src="https://github.com/arthurxavier/omnistack11-react/blob/master/src/assets/logo.png" width="250px" /><br>
  <b>Seja um verdadeiro Heroi!</b> 🦸‍♂️
