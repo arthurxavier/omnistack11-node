@@ -4,7 +4,7 @@ Backend - 'Be The Hero' Project.</br>
 The project is an ONGs management application where the user can register and execute cases.
 
 <h4 align="center">
-<img src="./src/assets/logo.png" width="250px" /><br>
+ <img src="https://github.com/arthurxavier/omnistack11-react/blob/master/src/assets/logo.png" width="250px" /><br>
  <b>Seja um verdadeiro Heroi!</b> 🦸‍♂️
 </h4>
 <p align="center">
