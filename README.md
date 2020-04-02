@@ -1,13 +1,11 @@
 # omnistack11-node
 
-Backend - 'Be The Hero' Project.</br>
-The project is an ONGs management application where the user can register and execute cases.
-
 <h4 align="center">
  <img src="https://github.com/arthurxavier/omnistack11-react/blob/master/src/assets/logo.png" width="250px" /><br>
  <b>Seja um verdadeiro Heroi!</b> 🦸‍♂️
 </h4>
 <p align="center">
+  <img alt="Back-end" src="https://img.shields.io/badge/back-end">
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-red">
   </a>
@@ -20,9 +18,8 @@ The project is an ONGs management application where the user can register and ex
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Node](https://github.com/nodejs/node)
 - [Express](https://github.com/expressjs/express)
-- [SQLite DB](https://www.sqlite.org/index.html)
-- [Cors](https://github.com/expressjs/cors)
 - [Knex](https://github.com/knex/knex)
+- [SQLite DB](https://www.sqlite.org/index.html)
 
 
 ### :muscle: Projeto
